@@ -6,9 +6,8 @@ metadata:
     app: nginxhello
   name: nginxhello
   annotations:
-    fluxcd.io/ignore: "false"
-    fluxcd.io/automated: "true"
-    fluxcd.io/tag.nginxhello: semver:~1.19.x
+    fluxcd.io/ignore: "true"
+    fluxcd.io/automated: "false"
 spec:
   replicas: 5
   selector:
